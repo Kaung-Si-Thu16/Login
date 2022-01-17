@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="loginProject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Bitter:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h2 id="success"></h2>
+        <div id="container">
+            <div class="title">
+                <h1>Login</h1>
+
+            </div>
+
+            <h3 id="error"></h3>
+            <form onsubmit="login(event)">
+                <label for="email">
+                    <input type="email" name="email" placeholder="Enter your email" class="input">
+                </label>
+                <label for="password">
+                    <input type="password" name="password" placeholder="Enter your password" class="input">
+                </label>
+                <br>
+                <label for="terms"> 
+                    <input type="checkbox" name="terms"> I have read and agree with <a href="#" target="_blank" class="link">Terms & Conditions</a>.
+                </label>
+                <button id="button" type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="loginProject.js"></script>
+</body>
+
+</html>

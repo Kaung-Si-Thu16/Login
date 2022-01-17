@@ -1,0 +1,139 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("images/bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    #container {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25%;
+        border-radius: 20px;
+        background: rgba(41, 41, 41, 0.3)
+    }
+    
+    form {
+        padding: 20px 20px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    
+    .input {
+        padding: 10px;
+        margin: 5px;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid;
+        background: none;
+        color: hsl(0, 0%, 0%);
+    }
+    
+    .link {
+        text-decoration: none;
+        color: skyblue;
+    }
+    
+    .title h1 {
+        font-family: 'Barlow', sans-serif;
+        padding: 20px 20px;
+        text-align: center;
+    }
+    
+    #button {
+        width: 25%;
+        margin: 20px;
+        padding: 10px;
+        background: hsl(167, 39%, 60%);
+        border: none;
+        border-radius: 20px;
+    }
+    
+    #error {
+        text-align: center;
+        margin-left: 5%;
+        color: hsla(39, 94%, 50%, 0.911);
+        font-family: sans-serif;
+    }
+    
+    #success {
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 25%;
+        color: hsl(167, 39%, 80%);
+    }
+    
+    .link:hover {
+        text-decoration: underline;
+    }
+    
+    #button:hover {
+        background: hsl(167, 39%, 80%)
+    }
+    
+    .input:hover {
+        border: 1px solid black;
+    }
+    
+    .input:focus {
+        background: hsl(167, 39%, 80%);
+    }
+    
+    @media (max-width: 900px) {
+        #container {
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20%;
+            border-radius: 20px;
+            background: rgba(41, 41, 41, 0.3)
+        }
+        form {
+            padding: 5px 5px;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+        }
+        .input {
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid;
+            background: none;
+            color: hsl(0, 0%, 0%);
+        }
+        .link {
+            text-decoration: none;
+            color: skyblue;
+        }
+        .title h1 {
+            font-family: 'Barlow', sans-serif;
+            padding: 20px 20px;
+            text-align: center;
+        }
+        #button {
+            width: 25%;
+            margin: 20px;
+            padding: 10px;
+            background: hsl(167, 39%, 60%);
+            border: none;
+            border-radius: 20px;
+        }
+        #error {
+            text-align: center;
+            margin-left: 5%;
+            color: hsla(39, 94%, 50%, 0.911);
+            font-family: sans-serif;
+        }
+        #success {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 25%;
+            color: hsl(167, 39%, 80%);
+        }
+    }
